@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "run": "node index.js",
+    "r": "node index.js",
     "test": "test"
   },
   "author": "",
