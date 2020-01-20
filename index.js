@@ -10,8 +10,4 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use('/users', user);
 
-app.listen(3000,function(){
-  console.log('Server Running: 3000');
-});
-
 module.exports = app;
