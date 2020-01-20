@@ -43,12 +43,12 @@ app.post('/users',(req,res) => {
   const name = req.body.name;
   if(!name) return res.status(400).end();
 
-  const isConfict = users.filter((user) => user.name === name).length;
-  if(isConfict) return res.status(409).end();
+  const isConfilct = users.filter((user) => user.name === name).length;
+  if(isConfilct) return res.status(409).end();
 
 
   const id = Date.now();
-  const user = {id, user};
+  const user = {id, name};
   users.push(user);
   res.status(201).json(user);
 
