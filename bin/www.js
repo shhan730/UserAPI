@@ -6,5 +6,5 @@ syncDb().then(_=>{
   app.listen(3000, () => {
     console.log('Server Running');
   });
-})
+});
 
