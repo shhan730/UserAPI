@@ -29,9 +29,7 @@ npm start
 
 
 
-### Sign Up
-
-> [POST] /users
+### Sign Up -  [POST] /users
 
 |Key|Value|
 |:----:|:-:|
@@ -49,9 +47,7 @@ npm start
 
 
 
-### Get User List
-
-> [GET] /users
+### Get User List - [GET] /users
 
 |  Key  | Value |
 | :---: | :---: |
@@ -69,9 +65,7 @@ npm start
 
 
 
-### Search User
-
-> [GET] /users/:id
+### Search User - [GET] /users/:id
 
 **`id` Variable should be Interger**
 
@@ -87,9 +81,7 @@ npm start
 
 
 
-###Change User Info
-
-> [PUT] /user/:id
+###Change User Info - [PUT] /user/:id
 
 | Key  |  Value  |
 | :--: | :-----: |
@@ -109,9 +101,7 @@ npm start
 
 
 
-### Delete User
-
-> [DELETE] /user/:id
+### Delete User - [DELETE] /user/:id
 
 **"id" Variable should be Interger**
 
